@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Student Login Form</title>
+	</head>
+<body>
+
+	<div align="center">
+		<!-- <h1>My Database Systems</h1> -->
+		<h1>Student Login Form</h1>
+	</div>
+<form action="student_info.php" method="post">
+	<table border="10" align="center">
+		<tr>
+			<td>
+			<label>Enter First Name</label></td>
+			<td><input type="text" name="first_name"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Last Name</label></td>
+			<td><input type="text" name="last_name"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Gender</label></td>
+			<td><input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female</td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Email</label></td>
+			<td><input type="email" name="email"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Phone</label></td>
+			<td><input type="phone" name="phone"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" ><input type="submit" name="save" value="Submit" style="font-size:20px"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
